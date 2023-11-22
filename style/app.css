@@ -372,8 +372,10 @@ main {
 
 .divisor {
     font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 1px;
     text-align: center;
-    font-size: 24px;
+    font-size: 21px;
 }
 
 .main-article-subPanelSecond-element h4:hover {
@@ -383,7 +385,7 @@ main {
 
 
 .main-article-subPanelThird {
-    border-image: repeating-linear-gradient(to right, gray, gray 20%, red 20%, red 80%, gray 80%, gray);
+    border-image: repeating-linear-gradient(to right, #eeeeee, #eeeeee 25%, #cd0000 25%, #cd0000 75%, #eeeeee 75%, #eeeeee);
     border-image-repeat: round;
     border-top: 5px solid;
     border-image-slice: 1;
@@ -395,10 +397,9 @@ main {
     position: relative;
     margin-top: 3rem;
     width: 16rem;
-    height: 40rem;
+    height: 42rem;
     float: left;
     z-index: 33;
-    background-color: aqua;
 }
 
 .second-ad img {
@@ -412,6 +413,14 @@ main {
     width: 418px;
 }
 
+.new
+{
+    gap: 40.5px;
+}
+
+.space{
+    gap:48px;
+}
 
 @media only screen and (max-width: 600px) {
     .headline-topbar-featured {
